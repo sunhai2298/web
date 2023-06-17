@@ -10,7 +10,23 @@ body {
     background-color: #f2f2f2;
     padding: 20px;
   }
-  
+  .textshou {
+    text-align: center;
+    font-size: 30px;
+    color: #2487b8;
+  }
+  .textxue {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: #2487b8;
+  }
+  .textgame {
+    text-align: center;
+    font-size: 24px;
+    color: #33cdd8;
+  }
   header h1 {
     margin: 0;
     position: relative;
@@ -60,9 +76,10 @@ body {
   }
   /* 动画图片模块 */
   .image-container {
-    width: 200px;
-    height: 200px;
+    width: 256px;
+    height: 256px;
     position: relative;
+    left: 20%;
     perspective: 1000px;
   }
 
@@ -72,7 +89,7 @@ body {
     object-fit: cover;
     position: absolute;
     top: 10%;
-    left: 80%;
+    left: 10%;
     transition: transform 0.25s;
   }
   .image:hover {
@@ -113,8 +130,10 @@ body {
   /* 消失出现文字 */
   .container3 {
     position: relative;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+    position :relative;
+    left: 20%;
   }
 
   .image3 {
