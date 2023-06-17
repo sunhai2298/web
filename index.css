@@ -99,6 +99,7 @@ body {
   .image-container2 {
     position: relative;
     display: inline-block;
+      left : 20%;
   }
 
   .image-container2:hover .image {
